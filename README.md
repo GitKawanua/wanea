@@ -1,4 +1,8 @@
 # Wanea HTML web project
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/GitKawanua/wanea?style=for-the-badge) 
+![GitHub last commit](https://img.shields.io/github/last-commit/GitKawanua/wanea?style=for-the-badge) 
+![GitHub Release Date](https://img.shields.io/github/release-date/GitKawanua/wanea?style=for-the-badge) 
+![GitHub](https://img.shields.io/github/license/GitKawanua/wanea?style=for-the-badge)
 
 ## Element
 - [x] jQuery v3.4.1
