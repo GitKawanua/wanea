@@ -5,10 +5,20 @@
 ![GitHub](https://img.shields.io/github/license/GitKawanua/wanea?style=for-the-badge)
 
 ## Element
-- [x] jQuery v3.4.1
-- [x] Bootstrap v4.3.1
-- [x] Font Awesome v5.11.2
-- [x] Popper.js v1.15.0
+- [x] jQuery `v3.4.1`
+- [x] Bootstrap `v4.3.1`
+- [x] Font Awesome `v5.11.2`
+- [x] Popper.js `v1.15.0`
+
+## Pages
+- [x] Index
+- [ ] Blog
+- [ ] Blog - Content
+- [ ] Contact
+
+## Future Release
+- [ ] PHP Version
+- [ ] WordPress Version
 
 ## Changelog
 **v1.0**
