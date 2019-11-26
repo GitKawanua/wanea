@@ -330,4 +330,5 @@ ASALocalRun/
 .mfractor/
 
 # My ignore lists
-src/css/style.css
+css/style.css
+html/src/css/style.css
