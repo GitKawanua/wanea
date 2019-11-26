@@ -28,6 +28,9 @@ a:link, a:hover, a:active, a:focus {
     background-size: contain;
     /* background by SVGBackgrounds.com */
 }
+.main-content {
+    font-size: 1rem;
+}
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: #212529 !important;
 }
@@ -35,7 +38,7 @@ a:link, a:hover, a:active, a:focus {
     list-style-type: none;
 }
 .task-list-item-checkbox {
-    margin: 0 .2em .25em -1.6em;
+    margin: 0 .5em .25em -1.6em;
     vertical-align: middle;
 }
 @import "{{ site.theme }}";
