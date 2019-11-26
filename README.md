@@ -1,4 +1,6 @@
 # Wanea HTML web project
+![Website](https://img.shields.io/website?label=Demo%20Site&style=for-the-badge&url=https%3A%2F%2Fgit.kawanua.id%2Fwanea%2Fhtml%2F)
+
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/GitKawanua/wanea?style=for-the-badge) 
 ![GitHub Release Date](https://img.shields.io/github/release-date/GitKawanua/wanea?style=for-the-badge) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/GitKawanua/wanea?style=for-the-badge) 
