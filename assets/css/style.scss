@@ -31,6 +31,9 @@ a:link, a:hover, a:active, a:focus {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color: #212529 !important;
 }
+.task-list-item {
+    list-style-type: none;
+}
 @import "{{ site.theme }}";
 
 #skip-to-content {
