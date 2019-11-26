@@ -1,4 +1,4 @@
-# Wanea HTML web project
+# Wanea - A free Bootstrap HTML template.
 Maintained by Kawanua.ID
 
 ![Website](https://img.shields.io/website?label=Demo%20Site&style=for-the-badge&url=https%3A%2F%2Fgit.kawanua.id%2Fwanea%2Fhtml%2F)
