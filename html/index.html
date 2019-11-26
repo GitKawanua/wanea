@@ -6,195 +6,253 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- CSS Global -->
     <link rel="stylesheet" href="https://static.my.id/libs/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://static.my.id/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://font.my.id/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="src/css/style.min.css">
+    <link rel="stylesheet" href="src/css/font-import.min.css">
+    <link rel="stylesheet" href="src/css/global.css">
+
+    <!-- JS Global -->
+    <script defer src="https://static.my.id/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://static.my.id/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src="https://static.my.id/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://font.my.id/libs/font-awesome/5.11.2/js/all.min.js"></script>
 
     <link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
+    <link rel="dns-prefetch" href="//static.my.id">
+    <link rel="dns-prefetch" href="//img.static.my.id">
+    <link rel="dns-prefetch" href="//font.my.id">
+    <link rel="dns-prefetch" href="//www.abuseipdb.com">
+    <link rel="canonical" href="https://kawanua.id">
+    <link rel="prefetch">
 
   </head>
   <body>
-      <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-              <h1 class="display-4 font-weight-bold text-light">Kawanua Dev</h1>
-          </div>
-      </div>
-      <div class="container pt-5 pb-5">
-          <div class="row">
-              <div class="col-xs-12 col-md-4 kartu">
-                <div class="card shadow">
-                    <h3 class="card-header">Junction <span class="badge badge-info float-right">Font</span></h3>
-                    <img class="card-img-top" src="https://cdn.cnet.work/libs/junction/junction-1.png" alt="">
-                    <div class="card-body">
-                        <div class="d-inline-block mb-4">
-                            <span class="badge badge-info mr-1">Regular</span> 
-                            <span class="badge badge-info mr-1">Bold</span>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="https://kawanua.id"><img src="https://img.static.my.id/120x40/" alt="Logo Kawanua.ID"></a>
+
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Dev Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#!">Credit</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+      <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row d-flex flex-column align-items-left text-light">
+                    <div><h1 class="display-4 font-weight-bold">Header 1</h1></div>
+                    <div><h4>Header 4</h4></div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <main role="main">
+          <div class="container pt-5 pb-5">
+              <section>
+                  <div class="row">
+                      <div class="col-xs-12 col-md-4 kartuhtml animated fadeIn">
+                        <div class="card shadow">
+                            <h3 class="card-header">Junction <span class="badge badge-info float-right">Font</span></h3>
+                            <img class="card-img-top" src="https://cdn.cnet.work/libs/junction/junction-1.png" alt="">
+                            <div class="card-body">
+                                <div class="d-inline-block mb-4">
+                                    <span class="badge badge-info mr-1">Regular</span> 
+                                    <span class="badge badge-info mr-1">Bold</span>
+                                </div>
+                                <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
+                                <p class="card-text">
+                                    Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
+                                </p>
+                                <code>
+                                    &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/junction/web/junction.css" crossorigin="anonymous"&gt;
+                                </code>    
+                                <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
+                                <p class="card-text">
+                                    Pasang rules CSS berikut untuk menggunakan font ini.
+                                </p>
+                                <code>
+                                    font-family: 'Junction', sans-serif;
+                                </code>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around">
+                                <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesJunction">Contoh</a>
+                                <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/junction" role="button" ><i class="fab fa-github"></i> Github</a>
+                            </div>
                         </div>
-                        <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
-                        <p class="card-text">
-                            Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
-                        </p>
-                        <code>
-                            &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/junction/web/junction.css" crossorigin="anonymous"&gt;
-                        </code>    
-                        <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
-                        <p class="card-text">
-                            Pasang rules CSS berikut untuk menggunakan font ini.
-                        </p>
-                        <code>
-                            font-family: 'Junction', sans-serif;
-                        </code>
+                      </div>
+                      <div class="col-xs-12 col-md-4 kartuhtml">
+                        <div class="card shadow">
+                            <h3 class="card-header">League Spartan <span class="badge badge-info float-right">Font</span></h3>
+                            <img class="card-img-top" src="https://cdn.cnet.work/libs/league/spartan/league-spartan-3.gif" alt="">
+                            <div class="card-body">
+                                <div class="d-inline-block mb-4">
+                                    <span class="badge badge-info mr-1">Bold</span>
+                                </div>
+                                <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
+                                <p class="card-text">
+                                    Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
+                                </p>
+                                <code>
+                                    &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/league/spartan/web/stylesheet.css" crossorigin="anonymous" /&gt;
+                                </code>
+                                <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
+                                <p class="card-text">
+                                    Pasang rules CSS berikut untuk menggunakan font ini.
+                                </p>
+                                <code>
+                                    font-family: 'League Spartan', sans-serif;
+                                </code>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around">
+                                <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesLeagueSpartan">Contoh</a>
+                                <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/league-spartan" role="button" ><i class="fab fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4 kartuhtml">
+                        <div class="card shadow">
+                            <h3 class="card-header">League Gothic <span class="badge badge-info float-right">Font</span></h3>
+                            <img class="card-img-top" src="https://cdn.cnet.work/libs/league/gothic/league-gothic-1.png" alt="">
+                            <div class="card-body">
+                                <div class="d-inline-block mb-4">
+                                    <span class="badge badge-info mr-1">Regular</span>
+                                    <span class="badge badge-info mr-1">Italic</span>
+                                    <span class="badge badge-info mr-1">Condensed</span>
+                                    <span class="badge badge-info mr-1">Condensed Italic</span>
+                                </div>
+                                <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
+                                <p class="card-text">
+                                    Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
+                                </p>
+                                <code>
+                                    &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/league/gothic/web/stylesheet.css" crossorigin="anonymous" /&gt;
+                                </code>
+                                <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
+                                <p class="card-text">
+                                    Pasang rules CSS berikut untuk menggunakan font ini.
+                                </p>
+                                <code>
+                                    font-family: 'League Gothic', sans-serif;
+                                </code>
+                                <code>
+                                    font-family: 'League Gothic Condensed', sans-serif;
+                                </code>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around">
+                                <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesLeagueGothic">Contoh</a>
+                                <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/league-gothic" role="button" ><i class="fab fa-github"></i> Github</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4 kartuhtml">
+                          <div class="card shadow">
+                            <h3 class="card-header">Hack <span class="badge badge-info float-right">Font</span></h3>
+                            <img class="card-img-top" src="https://via.placeholder.com/800x300/343a40/f8f9fa/?text=dev.kawanua.id" alt="">
+                            <div class="card-body">
+                                <div class="d-inline-block mb-4">
+                                    <div class="badge badge-info mr-1">Regular</div>
+                                    <div class="badge badge-info mr-1">Italic</div>
+                                    <div class="badge badge-info mr-1">Bold</div>
+                                    <div class="badge badge-info mr-1">Bold Italic</div>
+                                </div>
+                                <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
+                                <p class="card-text">
+                                    Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
+                                </p>
+                                <code>
+                                    &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/hack-font/3.3.0/hack.css" crossorigin="anonymous" /&gt;
+                                </code>
+                                <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
+                                <p class="card-text">
+                                    Pasang rules CSS berikut untuk menggunakan font ini.
+                                </p>
+                                <code>
+                                    font-family: 'Hack', sans-serif;
+                                </code>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around">
+                                <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesHack">Contoh</a>
+                                <a name="" id="" class="btn btn-secondary" href="https://github.com/source-foundry/Hack" role="button" ><i class="fab fa-github"></i> Github</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4 kartuhtml">
+                          <div class="card shadow">
+                            <h3 class="card-header">Overpass <span class="badge badge-info float-right">Font</span></h3>
+                            <img class="card-img-top" src="https://via.placeholder.com/800x300/343a40/f8f9fa/?text=dev.kawanua.id" alt="">
+                            <div class="card-body">
+                                <div class="d-inline-block mb-4">
+                                    <div class="badge badge-info mr-1">Thin</div>
+                                    <div class="badge badge-info mr-1">Light</div>
+                                    <div class="badge badge-info mr-1">Regular</div>
+                                    <div class="badge badge-info mr-1">Bold</div>
+                                    <div class="badge badge-info mr-1">Heavy</div>
+                                    <div class="badge badge-info mr-1">Italic</div>
+                                </div>
+                                <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
+                                <p class="card-text">
+                                    Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
+                                </p>
+                                <code>
+                                    &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/overpass-webfont/overpass.min.css" crossorigin="anonymous" /&gt;
+                                </code>
+                                <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
+                                <p class="card-text">
+                                    Pasang rules CSS berikut untuk menggunakan font ini.
+                                </p>
+                                <code>
+                                    font-family: 'Overpass', sans-serif;
+                                </code>
+                            </div>
+                            <div class="card-footer d-flex justify-content-around">
+                                <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesOverpass">Contoh</a>
+                                <a name="" id="" class="btn btn-secondary" href="https://github.com/RedHatBrand/Overpass" role="button" ><i class="fab fa-github"></i> Github</a>
+                            </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+              </section>
+          </div>
+      </main>
+      <footer>
+        <div class="container-fluid bg-dark">
+            <div class="container pt-5 pb-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-xs-12 col-md-3 pb-4">
+                      <div>
+                          <a href="https://kawanua.id"><img src="https://img.static.my.id/200x100/" alt="Logo Kawanua.ID"></a>
+                      </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-around">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesJunction">Contoh</a>
-                        <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/junction" role="button" ><i class="fab fa-github"></i> Github</a>
+                    <div class="col-xs-12 col-md-6 pb-4">
+                      <div>
+                        © 2016-2019 <strong>Kawanua ID</strong>. Some rights reserved. 
+                      </div>
+                      <div>
+                          <a href="https://github.com/GitKawanua/wanea" target="_blank" rel="noopener noreferrer">Wanea template v1.0</a> proudly made in Indonesia. Hosting powered by <a href="https://circlehosting.com" target="_blank">CircleHosting</a> and CDN by <a href="https://cnet.work" target="_blank">Cnetwork</a>.
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-3 pb-4">
+                      <div>
+                          <a href="https://www.abuseipdb.com/user/30448" data-toggle="tooltip" data-placement="right" title="" alt="AbuseIPDB Contributor Badge" data-original-title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
+                              <img src="https://www.abuseipdb.com/contributor/30448.svg" class="kawanuaid shadow" alt=""></a>
+                      </div>
                     </div>
                 </div>
-              </div>
-              <div class="col-xs-12 col-md-4 kartu">
-                <div class="card shadow">
-                    <h3 class="card-header">League Spartan <span class="badge badge-info float-right">Font</span></h3>
-                    <img class="card-img-top" src="https://cdn.cnet.work/libs/league/spartan/league-spartan-3.gif" alt="">
-                    <div class="card-body">
-                        <div class="d-inline-block mb-4">
-                            <span class="badge badge-info mr-1">Bold</span>
-                        </div>
-                        <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
-                        <p class="card-text">
-                            Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
-                        </p>
-                        <code>
-                            &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/league/spartan/web/stylesheet.css" crossorigin="anonymous" /&gt;
-                        </code>
-                        <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
-                        <p class="card-text">
-                            Pasang rules CSS berikut untuk menggunakan font ini.
-                        </p>
-                        <code>
-                            font-family: 'League Spartan', sans-serif;
-                        </code>
-                    </div>
-                    <div class="card-footer d-flex justify-content-around">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesLeagueSpartan">Contoh</a>
-                        <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/league-spartan" role="button" ><i class="fab fa-github"></i> Github</a>
-                    </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-4 kartu">
-                <div class="card shadow">
-                    <h3 class="card-header">League Gothic <span class="badge badge-info float-right">Font</span></h3>
-                    <img class="card-img-top" src="https://cdn.cnet.work/libs/league/gothic/league-gothic-1.png" alt="">
-                    <div class="card-body">
-                        <div class="d-inline-block mb-4">
-                            <span class="badge badge-info mr-1">Regular</span>
-                            <span class="badge badge-info mr-1">Italic</span>
-                            <span class="badge badge-info mr-1">Condensed</span>
-                            <span class="badge badge-info mr-1">Condensed Italic</span>
-                        </div>
-                        <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
-                        <p class="card-text">
-                            Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
-                        </p>
-                        <code>
-                            &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/league/gothic/web/stylesheet.css" crossorigin="anonymous" /&gt;
-                        </code>
-                        <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
-                        <p class="card-text">
-                            Pasang rules CSS berikut untuk menggunakan font ini.
-                        </p>
-                        <code>
-                            font-family: 'League Gothic', sans-serif;
-                        </code>
-                        <code>
-                            font-family: 'League Gothic Condensed', sans-serif;
-                        </code>
-                    </div>
-                    <div class="card-footer d-flex justify-content-around">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesLeagueGothic">Contoh</a>
-                        <a name="" id="" class="btn btn-secondary" href="https://github.com/theleagueof/league-gothic" role="button" ><i class="fab fa-github"></i> Github</a>
-                    </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-md-4 kartu">
-                  <div class="card shadow">
-                    <h3 class="card-header">Hack <span class="badge badge-info float-right">Font</span></h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/800x300/343a40/f8f9fa/?text=dev.kawanua.id" alt="">
-                    <div class="card-body">
-                        <div class="d-inline-block mb-4">
-                            <div class="badge badge-info mr-1">Regular</div>
-                            <div class="badge badge-info mr-1">Italic</div>
-                            <div class="badge badge-info mr-1">Bold</div>
-                            <div class="badge badge-info mr-1">Bold Italic</div>
-                        </div>
-                        <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
-                        <p class="card-text">
-                            Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
-                        </p>
-                        <code>
-                            &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/hack-font/3.3.0/hack.css" crossorigin="anonymous" /&gt;
-                        </code>
-                        <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
-                        <p class="card-text">
-                            Pasang rules CSS berikut untuk menggunakan font ini.
-                        </p>
-                        <code>
-                            font-family: 'Hack', sans-serif;
-                        </code>
-                    </div>
-                    <div class="card-footer d-flex justify-content-around">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesHack">Contoh</a>
-                        <a name="" id="" class="btn btn-secondary" href="https://github.com/source-foundry/Hack" role="button" ><i class="fab fa-github"></i> Github</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col-xs-12 col-md-4 kartu">
-                  <div class="card shadow">
-                    <h3 class="card-header">Overpass <span class="badge badge-info float-right">Font</span></h3>
-                    <img class="card-img-top" src="https://via.placeholder.com/800x300/343a40/f8f9fa/?text=dev.kawanua.id" alt="">
-                    <div class="card-body">
-                        <div class="d-inline-block mb-4">
-                            <div class="badge badge-info mr-1">Thin</div>
-                            <div class="badge badge-info mr-1">Light</div>
-                            <div class="badge badge-info mr-1">Regular</div>
-                            <div class="badge badge-info mr-1">Bold</div>
-                            <div class="badge badge-info mr-1">Heavy</div>
-                            <div class="badge badge-info mr-1">Italic</div>
-                        </div>
-                        <h6 class="card-subtitle mb-2 font-weight-bold">Font Embed</h6>
-                        <p class="card-text">
-                            Tambahkan baris kode dibawah ini dalam tag &lt;HEAD&gt; pada halaman HTML.
-                        </p>
-                        <code>
-                            &lt;link rel="stylesheet" href="https://cdnjs.cnet.work/libs/overpass-webfont/overpass.min.css" crossorigin="anonymous" /&gt;
-                        </code>
-                        <h6 class="card-subtitle mt-4 mb-2 font-weight-bold">Kode CSS</h6>
-                        <p class="card-text">
-                            Pasang rules CSS berikut untuk menggunakan font ini.
-                        </p>
-                        <code>
-                            font-family: 'Overpass', sans-serif;
-                        </code>
-                    </div>
-                    <div class="card-footer d-flex justify-content-around">
-                        <a name="" id="" class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#spesOverpass">Contoh</a>
-                        <a name="" id="" class="btn btn-secondary" href="https://github.com/RedHatBrand/Overpass" role="button" ><i class="fab fa-github"></i> Github</a>
-                    </div>
-                  </div>
-              </div>
-              
-          </div>
-      </div>
-      <footer class='text-light bg-dark'>
-          <div class="container">
-              <div class="row">
-                  <div class="col-xs-12 col-md-12">
-                      © 2016-2019 Kawanua ID. Some rights reserved.
-                  </div>
-                  
-              </div>
-          </div>
-      </footer>
+            </div>
+        </div>
+    </footer>
 
       <!-- Modal -->
       <div class="modal" id="spesJunction" tabindex="-1" role="dialog" aria-labelledby="spesJunctionLabel" aria-hidden="true">
@@ -363,10 +421,5 @@
         </div>
       </div>
       
-    <!-- Optional JavaScript -->
-    <script defer src="https://static.my.id/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script defer src="https://static.my.id/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script defer src="https://static.my.id/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script defer src="https://font.my.id/libs/font-awesome/5.11.2/js/all.min.js"></script>
   </body>
 </html>
