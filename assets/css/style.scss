@@ -34,6 +34,10 @@ a:link, a:hover, a:active, a:focus {
 .task-list-item {
     list-style-type: none;
 }
+.task-list-item-checkbox {
+    margin: 0 .2em .25em -1.6em;
+    vertical-align: middle;
+}
 @import "{{ site.theme }}";
 
 #skip-to-content {
