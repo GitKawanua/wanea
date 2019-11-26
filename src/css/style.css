@@ -1,8 +1,8 @@
-@import url('https://cdnjs.cnet.work/libs/overpass-webfont/overpass.min.css');
-@import url('https://cdnjs.cnet.work/libs/hack-font/3.3.0/hack.css');
-@import url('https://cdnjs.cnet.work/libs/league/gothic/web/stylesheet.css');
-@import url('https://cdnjs.cnet.work/libs/league/spartan/web/stylesheet.css');
-@import url('https://cdnjs.cnet.work/libs/junction/web/junction.css');
+@import url('https://font.my.id/libs/overpass/webfont/overpass.min.css');
+@import url('https://font.my.id/libs/hack/3.3.0/hack.css');
+@import url('https://font.my.id/libs/league/gothic/web/stylesheet.css');
+@import url('https://font.my.id/libs/league/spartan/web/stylesheet.css');
+@import url('https://font.my.id/libs/junction/web/junction.css');
 
 html {
     font-size: 14px;
