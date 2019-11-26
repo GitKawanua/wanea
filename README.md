@@ -23,6 +23,13 @@
 - [ ] WordPress Version
 
 ## Changelog
+**v2.0**
+
+- `NEW` Navbar
+- `Update` Masthead section
+- `Update` Footer section
+- `Update` Stylesheet
+
 **v1.0**
 
 Initial release
