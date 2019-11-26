@@ -6,11 +6,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/GitKawanua/wanea?style=for-the-badge) 
 ![GitHub](https://img.shields.io/github/license/GitKawanua/wanea?style=for-the-badge)
 
-## Element
+## Style Elements
 - [x] jQuery `v3.4.1`
 - [x] Bootstrap `v4.3.1`
 - [x] Font Awesome `v5.11.2`
 - [x] Popper.js `v1.15.0`
+- [x] Animate.css `v3.7.2`
 
 ## Pages
 - [x] Index
@@ -26,6 +27,7 @@
 **v2.0**
 
 - `NEW` Navbar
+- `NEW` Animate.css
 - `Update` Masthead section
 - `Update` Footer section
 - `Update` Stylesheet
