@@ -19,7 +19,7 @@ a:hover, a:active, a:focus {
     opacity: .6;
 }
 a:link, a:hover, a:active, a:focus {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .page-header {
     background-color: #330055 !important;
